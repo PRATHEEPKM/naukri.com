@@ -1,0 +1,141 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22725460700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLanch()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "NaukriTest",
+        "description": "",
+        "id": "naukritest;naukritest",
+        "after": [
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserQuit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210922100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch the Browser",
+            "match": {
+              "location": "Naukristepdefinition.user_launch_the_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3374518300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login in to Naukri",
+            "match": {
+              "location": "Naukristepdefinition.user_login_in_to_Naukri()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3606076100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter the emailid",
+            "match": {
+              "location": "Naukristepdefinition.user_enter_the_emailid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384370200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the Password",
+            "match": {
+              "location": "Naukristepdefinition.user_enter_the_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227967800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user login into",
+            "match": {
+              "location": "Naukristepdefinition.the_user_login_into()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Search the job",
+            "match": {
+              "location": "Naukristepdefinition.user_Search_the_job()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selecting the job",
+            "match": {
+              "location": "Naukristepdefinition.user_selecting_the_job()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user get the details",
+            "match": {
+              "location": "Naukristepdefinition.user_get_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "NaukriTest",
+    "description": "",
+    "id": "naukritest",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feachers/Naukri.feature",
+    "tags": []
+  }
+]
